@@ -79,7 +79,7 @@ function App() {
                     </Button>
                   </Form>
                   {eventList[index].events.map((event) => {
-                    return <p>{event}</p>
+                    return <p style={{ color: "red" }}>{event}</p>
                   })}
                 </Card.Body>
               </Card>
@@ -88,7 +88,7 @@ function App() {
 
         </Row>
       </Container>
-    </div>
+    </div >
   );
 }
 
